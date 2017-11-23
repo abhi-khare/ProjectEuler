@@ -4,8 +4,10 @@ l[0] = 1
 
 def mult(l , i):
     num = str(i)
-    for digit in range(len(num)-1,-1,-1):
-        out = helper()*int(digit)
+    for digit in range(0,len(num)):
+        out = helper(l , int(digit))
+        
+    
         
     return l
 
