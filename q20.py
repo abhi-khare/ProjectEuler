@@ -3,13 +3,10 @@ l = [0]*1000
 l[0] = 1
 
 def mult(l , i):
-    num = str(i)
-    for digit in range(0,len(num)):
-        out = helper(l , int(digit))
+    i = str(i)
+    for j in range(0,len(i))
         
-    
-        
-    return l
+    return a    
 
 for i in range(2,101):
     l = mult(l , i)
